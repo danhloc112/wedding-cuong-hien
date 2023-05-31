@@ -38,8 +38,8 @@ html {
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-image: url("../image/bg.jpg");
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/bg.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -50,12 +50,21 @@ html {
 
 
 .hero .title {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Great Vibes', cursive;
   font-weight: 700;
   transform: rotate(-2deg);
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 5px;
   color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+  .hero .title {
+        font-size: 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+  }
 }
 
 .hero .subtitle {
@@ -298,7 +307,7 @@ html {
 }
 
 .nama-lengkap {
-  font-family: 'Rouge Script', sans-serif;
+  font-family: 'Great Vibes', cursive;
   color: #996E6D;
   font-size: 3.5rem;
   letter-spacing: 0px;
@@ -308,7 +317,7 @@ html {
 
 .ampersand {
 font-size: 5rem;
-font-family: 'Rouge Script', sans-serif;
+font-family: 'Great Vibes', cursive;
 color: #996E6D;
 line-height: 5rem;
 display: inline-block;

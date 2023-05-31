@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://unpkg.com/bulma-tooltip@0.1.5/dist/bulma-tooltip.min.css" />
     <link rel="stylesheet" type="text/css" href="css/menikah.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap&amp;_cacheOverride=1685504523140" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/2828f7885a.js"
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
@@ -68,23 +69,17 @@
             <div class="navbar-end">
               <div class="navbar-item">
                 <a class="navbar-item" href="#Waktu">
-                  Waktu
+                  Tiệc cưới
                 </a>
               </div>
               <div class="navbar-item">
                 <a class="navbar-item" href="#lokasi">
-                  Lokasi
-                </a>
-              </div>
-              
-              <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Tentang Sherly dan Daeng
+                  Địa điểm
                 </a>
               </div>
               <div class="navbar-item">
                 <a class="navbar-item" href="#rsvp">
-                  RSVP
+                  Liên hệ
                 </a>
               </div>
             </div>
@@ -94,28 +89,27 @@
         <!-- Begin Hero Content-->
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="subtitle">Undangan Pernikahan</h1>
-            <h2 class="title">Sherly & Daeng</h2>
+            <h1 class="subtitle">Lễ Thành Hôn</h1>
+            <div class="title"><h1>Mạnh Cường</h1><h1> & </h1><h1>Thu Hiền</h1></div>
             <h4 class="subtitle tempatwaktu">
               
-                Sabtu, 21 Maret 2020 
+                Thứ 3, 
+                 06 tháng 6 năm 2023 
                 </br>
-                RM Pondok Kenanga, Jakasampurna
-                </br>
-                Kota Bekasi
-              
+                Văn Khê, Mê Linh, Hà Nội
+                </br>              
             </h4>
           </div>
-          <!-- Start Countdown -->       
+          <!-- Start Countdown -->        
           <div>
             <ul id="hitungmundur" >
-              <li><span class="days">00</span><p class="days_text">Hari</p></li>
+              <li><span class="days">00</span><p class="days_text">Ngày</p></li>
               <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+              <li><span class="hours">00</span><p class="hours_text">Giờ</p></li>
               <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
+              <li><span class="minutes">00</span><p class="minutes_text">Phút</p></li>
               <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
+              <li><span class="seconds">00</span><p class="seconds_text">Giây</p></li>
             </ul>
             <div class="spasi">
             </div>
@@ -126,13 +120,13 @@
               var year = now.getFullYear() + 1;
           
               var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '03/21/2020 17:00:00';
+              var harih = '06/06/2023 10:00:00';
 
               $('#hitungmundur').countdown({
                 date: harih, // TODO Date format: 07/27/2017 17:00:00
                 offset: +7, // TODO Your Timezone Offset
-                day: 'Hari',
-                days: 'Hari'
+                day: 'Ngày',
+                days: 'Ngày'
               }, function () {
                 alert('Done!');
               });
@@ -151,17 +145,13 @@
                     <a href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#Waktu">Waktu</a>
+                    <a href="#Waktu">Tiệc cưới</a>
                   </li>
                   <li>
-                    <a href="#lokasi">Lokasi</a>
+                    <a href="#lokasi">Địa điểm</a>
                   </li>
                   <li>
-                    <a href="#tentang-sherly-daeng">Tentang Sherly & Daeng</a>
-                  </li>
-
-                  <li>
-                    <a href="#rsvp">RSVP</a>
+                    <a href="#rsvp">Liên hệ</a>
                   </li>
                 </ul>
               </div>
@@ -178,17 +168,10 @@
     <div class="main-content">
     <!-- Begin regular-section-->
      <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
-        
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <img src="image/bismillah.png" class="bismillah has-text-centered" alt="Bismillahirrahmaanirrahiim">
-        </div>
-
         <p class="bodytext" data-aos="fade-up" data-aos-easing="linear">
-          Assalamu'alaikum Warahmatullahi Wabarakatuh.
+          Trân trọng kính mời
           <br />
-          Dengan memohon rahmat dan ridha Allah swt, 
-          <br />
-          kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara pernikahan kami
+          Quý khách tới dự lễ thành hôn giữa 
         </p>
 
         <span class="space40px"></span>
@@ -196,11 +179,11 @@
 
         <div data-aos="fade-up" data-aos-easing="linear">
           <div class="nama-lengkap" >
-            Sherly Jayanti, S.Par.
+            Nguyễn Mạnh Cường
           </div>
           <div class="ampersand">&</div>
           <div class="nama-lengkap">
-          Daeng Muhammad Feisal, S.Kom.
+          Nguyễn Thị Thu Hiền
           </div>
            
         </div>
@@ -218,49 +201,33 @@
         <div class="container">
 
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Waktu</h1>
+            <h1 class="title has-text-centered section-title">Tiệc cưới được tổ chức vào: </h1>
           </div>
           <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
-            <div
-              class="column is-4 has-vertically-aligned-content">
-            
-              <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Sabtu</div> 
-                  <div class="waktu tanggal-angka has-text-centered">21</div>
-                  <div class="waktu tanggal-bulan has-text-centered">Maret 2020</div>
-              </p>
-            
-            </div>
-            <div class="column is-4 has-vertically-aligned-content">
+            <div class="column is-6 has-vertically-aligned-content">
             
               <p class="waktu is-larger has-text-centered">
-                Akad Nikah:
+                Vào hồi:
                 <br>
-                <strong>17.00 WIB</strong>
+                <strong>17 giờ 00 phút</strong>
               </p>
             
             </div>
-
-            <div class="column is-4 has-vertically-aligned-content">
-              
-              <h1 class="waktu is-larger has-text-centered">
-                Resepsi:
-                <br>
-                <strong>19.00  - 21.00 WIB</strong>
-              </h1>
-              
-              
+            <div
+              class="column is-6 has-vertically-aligned-content">
+            
+              <p class="is-larger has-text-centered">
+                  <div class="waktu tanggal-hari has-text-centered">Thứ 2</div> 
+                  <div class="waktu tanggal-angka has-text-centered">05</div>
+                  <div class="waktu tanggal-bulan has-text-centered">Tháng 6 2023</div>
+              </p>
+            
             </div>
-
+            
           </div>
         </div>
         <div class="space40px"></div>
-        <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-          <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=daengdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
-            <i class="far fa-calendar-plus"></i>
-            &nbsp;&nbsp;Google Calendar
-          </a>
-        </div>
+        
       </section>
       <!-- End Waktu Content -->
 
@@ -268,156 +235,60 @@
       <section class="section-darker" id="lokasi" >
         <div class="container">
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">Lokasi</h1>
+            <h1 class="title has-text-centered section-title">Địa Điểm</h1>
             <p class="tempat is-larger has-text-centered">
-              <strong>RM Pondok Kenanga</strong>
+              <strong>Nhà Trai</strong>
               <br>
-              Jl. Kenanga Raya No.9, RT.001/RW.006A, Jakasampurna, 
+              Xóm Đền, Khê Ngoại, Văn Khê 
               <br>
-              Kec. Bekasi Barat, Kota Bekasi, Jawa Barat
+              Mê Linh, Hà Nội
               <br>
             </p>
           </div>
           <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1280267408406!2d106.9691569150978!3d-6.246854895478259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d5988a190d9%3A0x22b6a052b0a6a5f3!2sRM.%20Pondok%20Kenanga!5e0!3m2!1sen!2sid!4v1579433583123!5m2!1sen!2sid" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860.324935737877!2d105.70493473170824!3d21.16632774060951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134fedc0117a3bd%3A0x42278eb3ab9236f0!2zSOG7o3AgVMOhYyBYw6MgROG7i2NoIFbhu6UgTsO0bmcgTmdoaeG7h3AgS2jDqiBOZ2_huqFpIFjDoyBWxINuIEtow6o!5e0!3m2!1sen!2s!4v1685502681170!5m2!1sen!2s"  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
           <div class="space40px"></div>
-          <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-            <a href="https://maps.google.com/maps?ll=-6.246855,106.971346&z=16&t=m&hl=en&gl=ID&mapclient=embed&daddr=RM.%20Pondok%20Kenanga%20Jl.%20Kenanga%20Raya%20No.9%20RT.001%2FRW.006A%2C%20Jakasampurna%20Bekasi%20Barat%2C%20Bekasi%20City%2C%20West%20Java%2017145@-6.2468549,106.9713456" class="button btn-cta" target="_blank" data-aos="zoom-in">
-              <i class="far fa-directions"></i>
-              &nbsp;&nbsp;Google Maps
-            </a>
+        </div>
+         <div class="container">
+          <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
+            <p class="tempat is-larger has-text-centered">
+              <strong>Nhà Gái</strong>
+              <br>
+              Xóm Trại Cam, Khê Ngoại, Văn Khê 
+              <br>
+              Mê Linh, Hà Nội
+              <br>
+            </p>
           </div>
+          <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.7861805760385!2d105.70154423561681!3d21.160905883018906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134fedf509346cf%3A0xc7320edc060ca60e!2zeMOzbSBUcuG6oWksIFbEg24gS2jDqiwgTcOqIExpbmgsIEhhbm9pLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1685502803016!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <div class="space40px"></div>
         </div>
       </section>
       <!-- End Lokasi Content -->
-
-      <!-- Begin Tentang Sherly and Daeng -->
-      <section class="section-light regular-section is-fullheight" id="tentang-sherly-daeng">
-        <div class="container">
-          <div class="columns is-multiline">  
-          <div class="column has-text-centered is-12 prolog">
-            <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Tentang Sherly dan Daeng</h1>
-            
-
-          
-          <!-- IMAGES -->  
-        <div class=" tile">
-          <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child foto1 notification foto1" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">
-                <p class="title-foto">November 2018</p>
-                <p class="subtitle-foto">
-                  Pertama kali saling kenal di <a href="https://cashbac.com" target="_blank">Cashbac</a>
-                </p>
-              </div>
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification foto2" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">
-                <p class="title-foto">
-                  Desember 2018 - Februari 2019
-                </p>
-                <p class="subtitle-foto">
-                  Satu kantor, satu divisi, dan posisi tempat duduk saling membelakangi.
-                </p>   
-              </div>            
-            </article>
-          </div>
-          <div class="tile is-parent">
-            <article class="tile is-child notification foto3" data-aos="fade-up" data-aos-easing="linear">
-              <div class="content">  
-                <p class="title-foto">
-                  Maret 2019
-                </p>
-                <p class="subtitle-foto">
-                  Cerita cinta dimulai
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-      <div class="space24px"></div>
-      <div class="tile is-ancestor">
-        <div class="tile is-parent">
-          <article class="tile is-child notification foto6" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">Juni 2019</p>
-              <p class="subtitle-foto">Pertemuan 2 keluarga</p>
-            </div>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child notification foto4" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">Desember 2019</p>
-              <p class="subtitle-foto">Lamaran</p>
-            </div>
-          </article>
-        </div>
-        <div class="tile is-parent">              
-          <article class="tile is-child notification foto5" data-aos="fade-up" data-aos-easing="linear">
-            <div class="content">
-              <p class="title-foto">Maret 2020</p>
-              <p class="subtitle-foto">Menikah</p>
-            </div>
-          </article>
-        </div>
-      </div>   
-          <!-- IMAGES -->
-          <div class="space40px"></div>
-            <div data-aos="fade-up" data-aos-easing="linear">
-              <img src="image/divider-leaves.png" class="divider has-vertically-align" alt="~~~">
-            </div> 
-            <div class="space40px"></div>
-            <div class="space40px"></div>
-
-          </div>
-        </div>
-      </section>
-      <!-- End Tentang Sherly dan Daeng -->
-
       <!-- Begin RSVP Content -->
       <section class="section-dark contact" id="rsvp">
         <div class="container">
           <div class="columns is-multiline">          
             <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Konfirmasi Kehadiran</h1>
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Trân Trọng Kính Mời</h1>
             </div>
             <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
               <p class="h2 subtitle">
-                Merupakan suatu kehormatan dan kebahagiaan bagi kami
-                <br>
-                apabila Bapak/Ibu/Saudara/Saudari berkenan hadir
-                memberikan doa restu.
-                <br>
-                <br>
-                Jika bisa hadir kami tunggu konfirmasinya, 
-                <br>
-                Informasi: Di meja penerima tamu akan kami sediakan hand sanitizer dan pemeriksaan suhu tubuh.
-                <br>
-                <br>
-                Jika tidak memungkinkan untuk hadir di pernikahan kami,tidak mengapa,
-                <br> 
-                semoga bisa berjumpa di lain kesempatan
-                <br>
-                <br>
-                Stay safe & jaga kesehatan ya :)
+                Trong đêm trăng tròn, chúng tôi đã hứa hẹn với nhau rằng sẽ cùng chia sẻ những giây phút tuyệt vời trong cuộc sống này. Và giờ đây, chúng tôi sẽ chính thức trở thành vợ chồng. Hạnh phúc của chúng tôi sẽ không đầy đủ nếu thiếu đi sự hiện diện và chúc phúc của quý vị. Hãy đến và chia sẻ niềm vui cùng chúng tôi trong ngày trọng đại này.
                 </p>
      
-              <a href="https://api.whatsapp.com/send?phone=628xxxxxxxxxx&text=Halo%20Sherly,%20saya%20akan%20datang%20di%20acara%20pernikahan&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+              <a href="tel:+84946170795" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
                 <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;Kabari Sherly
+                &nbsp;&nbsp; Mạnh Cường
               </a>
               
 
           
-              <a href="https://api.whatsapp.com/send?phone=628xxxxxxxxxx&text=Halo%20Daeng,%20saya%20akan%20datang%20di%20acara%20pernikahan&source=&data=" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
+              <a href="tel:+84981022928" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
                 <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp; Kabari Daeng
+                &nbsp;&nbsp; Thu Hiền
               </a >
               <div class="space40px"></div>
 
@@ -427,15 +298,10 @@
               </div>
               <div class="space40px"></div>
               <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
-                Kami yang berbahagia,
+                <strong><i>Sự hiện diện của quý khách là niềm vinh hạnh của gia đình chúng tôi.</i></strong>
                 <br>
-                <a class="instagram":" href="https://instagram.com/nengchely" target="_blank" alt="Instagram Sherly">
-                  <i class="fab fa-instagram"></i> @nengchely
-                </a>
-                &nbsp
-                <a class="instagram" href="https://instagram.com/daengdoang" target="_blank" alt="Instagram Daeng">
-                  <i class="fab fa-instagram"></i> @daengdoang
-                </a>
+                <br><br><br>
+
               </p>
 
             </div>
@@ -448,7 +314,7 @@
     <!-- End Main Content -->
 
     <!-- Begin Footer -->
-    <div class="footer">
+    <!-- <div class="footer">
       <div class="container">
         <a href="https://github.com/daengdoang/daeng-sherly-menikah" class="has-vertically-align">
           <p class="has-vertically-align">2020 &copy Daeng Muhammad Feisal</p>
@@ -460,7 +326,7 @@
           <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploy with Netlify"/>
         </a>
       </div>
-    </div>
+    </div> -->
     <!-- End Footer -->
 
     <!-- Scripts -->
@@ -474,5 +340,43 @@
         duration: 800,
       });
     </script>
-  </body>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
 </html>
